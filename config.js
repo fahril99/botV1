@@ -27,14 +27,14 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'cb15ed422c71a2fb' (apikey kalian)
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.xteam.xyz': 'cb15ed422c71a2fb',
-  'https://api.lolhuman.xyz': 'rey2k21',
+  'https://api.lolhuman.xyz': 'Zynxz.lt',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 } //note sc gw enc beberapa di plugins dll ada lumayan kallo mau yang no enc beli //30k udah dapet N0 enc 100% ke wa.me/6285876902820
 
-lolkey = 'rey2k21'
+lolkey = 'Zynxz.lt'
 zekskey = 'apivinz'
 xteamkey = 'Dawnfrostkey'
 //xteam        MIMINETBOT
