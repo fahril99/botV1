@@ -22,7 +22,7 @@ Simple Rpg WhatsApp Bot fahrilbotz
 <a href="https://github.com/Dawnfrosty/Mike-bot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Dawnfrosty/Mike-bot?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group
-[Grup WhatsApp](https://chat.whatsapp.com/KewYr1eHLkyHFrwOZ8wafN]
+[Grup WhatsApp]: https://chat.whatsapp.com/KewYr1eHLkyHFrwOZ8wafN
 **bebas masukin bot**
 
 ## Deploy to heroku
