@@ -3,8 +3,8 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
 ┌〔 permanen〔 tanpa batas 〕
-├〔 upgrade permanen ke premium? 〕
-├ + *5k* *khusus penyewa grub ajh*
+├〔 upgrade ke premium? +5k 〕
+├ + *20k* *pembayaran*
 └────
 Silahkan klik pada "via" untuk list.
 
