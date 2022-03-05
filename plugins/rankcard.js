@@ -20,7 +20,7 @@ let caption = `
 *❏ Exp :* ${exp} --> ${max}
 *❏ limit:* ${limit}
 `
-conn.sendButtonImg(m.chat, await (await fetch(res)).buffer(), caption, '© fahril', 'GEGE', m)
+conn.send2ButtonImg(m.chat, await (await fetch(res)).buffer(), caption, '© fahril', 'dompet', '.my', 'push xp', '.?game', m)
 } 
     
     }
