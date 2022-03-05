@@ -11,17 +11,17 @@ const defaultMenu = {
 ╭──〔 %me 〕
 │⬡ Hai, %name!
 │
-│⬡ 💱 limit tersisa : *%limit Limit*
-│⬡ 👑 pangkat : *%role*
-│⬡ 📊 Level : *%level (%exp / %maxexp)* 
+│⬡ limit  : *%limit Limit*
+│⬡ rank : *%role*
+│⬡ Level : *%level (%exp / %maxexp)* 
 │ 
-│⬡ 🛐 Hari : *%week %weton* 
-│⬡ 📅 kallender : *%date*
-│⬡ 〽️ version : %version
+│⬡  Day : *%week %weton* 
+│⬡  kallender : *%date*
+│⬡  version : %version
 │
-│⬡ ⏰ Uptime :〔 %uptime 〕
-│⬡ 📁 Database : %rtotalreg dari %totalreg
-│⬡ 🕒 time : *%time*
+│⬡  Uptime :〔 %uptime 〕
+│⬡  Database : %rtotalreg dari %totalreg
+│⬡  time : *%time*
 │
 ╰──────`.trimStart(),
   header: '╭──〔 %category 〕',
@@ -220,10 +220,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}`.trim(),
           "description": `
-╭───〔 fahrilbotz 〕
-│⬡ ⏰Aktif selama ${uptime}
-│⬡ ⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ 👾fahrilbot
+╭───〔 ${namabot} 〕
+│⬡ ⏰ Aktif selama ${uptime}
+│⬡ ⚡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ 👾 hi saya ${namabot}
 │
 │⬡ *${conn.blocklist.length}* Terblock
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
