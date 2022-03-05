@@ -43,7 +43,7 @@ handler.all = async function (m, { conn, isBlocked }) {
 ╰❑
 
 sewabot? hubungi owner
-`.trim(), '© fahrilbotz', 'Pemilik Bot', ',#owner', m)
+`.trim(), '© fahrilbotz', 'Pemilik Bot', '#owner', m)
     }
 
     // salam
