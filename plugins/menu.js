@@ -168,7 +168,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let names = m.fromMe ? conn.user : conn.contacts[who]
     let pushname = `${names.vnmae || names.notify || names.names || ('+' + names.jid.split`@`[0])}`
     let pushn = 'menampilkan MENU fahrilbotz'
-    let name = registered ? global.db.data.users[m.sender].name : pushn
+    let name = registered ? global.db.data.users[m.sender].name : conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
     let locale = 'id'
     // d.getTimeZoneOffset()
@@ -218,7 +218,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}`.trim(),
+          "title": `${ucapan()}, ${name}`.trim(),
           "description": `
 ╭───〔 ${namabot} 〕
 │⬡ ⏰ Aktif selama ${uptime}
