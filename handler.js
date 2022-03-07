@@ -232,7 +232,6 @@ module.exports = {
           if (!'antispam' in settings) settings.antispam = true
           if (!'antitroli' in settings) settings.antitroli = true
           if (!'backup' in settings) settings.backup = false
-          if (!'self' in settings) settings.self = false
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
           if (!'jadibot' in settings) settings.groupOnly = false
@@ -247,7 +246,6 @@ module.exports = {
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
-          self: false, 
           onsfw: true,
           status: 0,
         }
@@ -255,7 +253,6 @@ module.exports = {
         console.error(e)
       }
       if (opts['nyimak']) return
-      if (!m.fromMe && setting.self) return
       if (opts['pconly'] && m.chat.endsWith('g.us')) return
       if (opts['gconly'] && !m.chat.endsWith('g.us')) return
       if (opts['swonly'] && m.chat !== 'status@broadcast') return
